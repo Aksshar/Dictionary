@@ -4,9 +4,9 @@
 #include<ctype.h>
 
 struct node{
-    char key[20];
-    char mean[100];
-    char syno[40];
+    char key[20]; //word
+    char mean[100]; //meaning
+    char syno[40]; //synonyms words
     struct node * next;
 };
 
